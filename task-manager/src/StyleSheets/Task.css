@@ -1,0 +1,50 @@
+.task_section{
+    width: 29.2rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+}
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: -2rem;
+
+}
+.description{
+    padding:1rem;
+    margin:1rem ;
+}
+.update{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.show{
+    display: none;
+}
+.updating_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+.updating_input_task{
+    margin: 1rem;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    background-color: #eee;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 10rem;
+}
+.updating_btn{
+    width: 10rem;
+    color: grey;
+    text-align: center;
+    border: none;
+}
+.updating_btn:focus{
+    outline: none;
+}

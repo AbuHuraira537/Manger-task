@@ -1,0 +1,10 @@
+.navigation{
+    background-color: #eee !important; 
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+    
+}   
+.link_item{
+    color: yellow;
+}
